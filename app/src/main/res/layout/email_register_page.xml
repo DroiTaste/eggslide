@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/email_register_page_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ultra.seed.eggslide.MainActivity">
+
+    <TextView
+        android:id="@+id/intro_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="Egg Slide"/>
+
+    <LinearLayout
+        android:id="@+id/register_layout"
+        android:layout_width="320dp"
+        android:layout_height="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/intro_title"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email_edit_box"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:background="@drawable/login_btn_transparent"
+            android:hint="이메일"
+            android:textColor="#ffffff"
+            android:textColorHint="#55ffffff"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/pw_edit_box"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:hint="비밀번호"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="#55ffffff"
+            android:paddingLeft="20dp"
+            android:background="@drawable/login_btn_transparent"/>
+
+        <EditText
+            android:id="@+id/pw_edit_box2"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:hint="비밀번호 확인"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="#55ffffff"
+            android:paddingLeft="20dp"
+            android:background="@drawable/login_btn_transparent"/>
+
+        <Button
+            android:id="@+id/register_next_btn"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="다음"
+            android:textColor="#ffffff"
+            android:background="@drawable/login_btn_transparent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

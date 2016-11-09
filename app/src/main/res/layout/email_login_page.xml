@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/email_login_page_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ultra.seed.eggslide.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="320dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email_edit_box"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:background="@drawable/login_btn_transparent"
+            android:hint="이메일"
+            android:textColor="#ffffff"
+            android:textColorHint="#55ffffff"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/pw_edit_box"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:hint="비밀번호"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="#55ffffff"
+            android:paddingLeft="20dp"
+            android:background="@drawable/login_btn_transparent"/>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="로그인"
+            android:textColor="#ffffff"
+            android:background="@drawable/login_btn_transparent"/>
+
+        <!--EmailPassword Find-->
+        <!--<TextView-->
+        <!--android:id="@+id/link_to_search_id_pw_txt"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/link_to_search_id_pw"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:textSize="14dp"/>-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/link_to_search_id_pw_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/link_to_search_id_pw_text"
+                android:textColor="#ffffff"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/link_to_search_id_pw_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/link_to_search_id_pw_link"
+                android:textColor="#ffffff"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/intro_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/login_layout"
+        android:layout_marginBottom="30dp"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="Egg Slide"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="#22ffffff">
+        <TextView
+            android:id="@+id/link_to_register_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:text="@string/link_to_register"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

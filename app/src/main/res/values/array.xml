@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menucolor">
+        <item >#ffffff</item>
+        <item >#ffffff</item>
+        <item >#ffffff</item>
+        <item >#ffffff</item>
+        <item >#ffffff</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">eggslide</string>
+    <string name="intro1_title">Egg Slide</string>
+    <string name="intro1_text">너희들의 최고의 순간을 멋진 사진으로 공유해봐</string>
+    <string name="intro2_title">최고의 순간을 공유</string>
+    <string name="intro2_text">너희들의 최고의 순간을 멋진 사진으로 공유해봐</string>
+    <string name="intro3_title">title</string>
+    <string name="intro3_text">내용</string>
+    <string name="link_to_search_id_pw">로그인 정보를 잊으셨나요? 아이디 비밀번호 찾기</string>
+    <!--EmailPassword Find-->
+    <string name="link_to_search_id_pw_text">로그인 정보를 잊으셨나요?</string>
+    <string name="link_to_search_id_pw_link">아이디 비밀번호 찾기</string>
+    <string name="link_to_register">계정이 없으신가요? 가입하기</string>
+    <string name="facebook_app_id">692800837562091</string>
+    <!--kakaoTalk-->
+    <string name="kakao_app_key">2d7c0a1535a32112991895f93553aa83</string>
+
+    <string name="tap3_following_like_content">%1$s님이 회원님의 사진을 좋아합니다. %2$s</string>
+    <string name="tap3_following_follow">%1$s님이 회원님을 팔로우하기 시작했습니다. %2$s</string>
+</resources>
